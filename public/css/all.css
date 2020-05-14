@@ -1,0 +1,118 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: 30px;
+    
+    
+}
+.containe{
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 15px;
+   
+   
+}
+.col{
+    
+    margin:10px;
+    margin-top: 15px;
+    padding:0px;
+    border-color: rgb(41, 23, 204);
+}
+.header{
+    
+    
+    width: 100%;
+    color: blue ;
+    height: 70px;
+    font-weight: bold;
+    margin-top: px;
+    background-color:#fff;
+    
+    
+}
+
+.menu{
+    float: right;
+    font-family: fantasy;
+    padding: 0px;
+    
+}
+
+.menu a {
+    margin: 20px;
+    padding: 10px;
+}
+a{
+    color:blue ;
+    
+}
+.entete{
+    background-color:rgb(123, 132, 134);
+    color:white;
+}
+.banner{
+    padding-top:2%;
+}
+h1,h2,h3,h4{
+    text-align: center;
+    color:#19B5FE;
+}
+h1{
+    font-size:100%;
+    font-weight:bold;
+    color:#19B5FE;
+    
+}
+h3{
+    color: #70726E;
+    padding: 30px;
+    font-size: 100%;
+}
+.footer{
+    background-color: cadetblue;
+}
+.propos{
+    font-size: 20px;
+    font-weight: 30px;
+}
+.contacts{
+height: 100px;
+background-color: cadetblue;
+
+}
+.col-service {
+    margin: 25px;
+    padding: 10px;
+}
+.form{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 40px;
+    margin-top: 50px;
+}
+/*
+@media screen and (max-width:290px){
+
+    body{
+        background-color: coral;
+    }
+    .header{
+        background-color: cyan;
+    }
+}
+@media screen and (max-width:590px){
+
+    body{
+        background-color: rgb(41, 23, 204);
+    }
+    .header{
+        background-color: cyan;
+    }
+}
+
