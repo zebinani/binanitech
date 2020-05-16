@@ -1,7 +1,9 @@
 @extends('layouts.layout')
 
 @section('pag_index')
-<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+<br><br><br>
+<div class="container">
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-interval="10000">
                     <img src="{{asset('images/work.jpg')}}"class="d-block w-100" alt="..." style="height:400px ;" >
@@ -23,6 +25,7 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
+  </div>
 
             <div class="containe">
                     <h1>A propos</h1>

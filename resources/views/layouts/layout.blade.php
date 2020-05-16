@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     
@@ -15,56 +16,49 @@
     <title>Accueil</title>
 </head>
 <body> 
-    <div class="container">
-            <section class="container-fluid header">
-           
-                <div class="container entete">
-                    <div class="row">
-                            
-                            <i class="fab fa-whatsapp-square"></i>
-                            <div class="col"><i class="fa fa-phone-square" aria-hidden="true">+221773579551</i></div>
-                            <div class="col"><i class="fa fa-envelope-open-o" aria-hidden="true">:masellouddiallo@gmail.com</i>
-                            </div>
-                            <div class="col"><a href="https://web.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                            
-                                
-                            </div>                            
-                    </div> 
-                    
-                </div>
-              
-                
-                <div class="navbar-menu ">
-                    <img src="{{asset('images/logo.png')}}" alt="logo" width="15%"> 
-                    
-                    
-                        <nav class="menu">
-                            <a href="/index">Accueil</a>
-                            <a href="/Boutique">Galerie</a>
-                            <a href="/contact">Contacts</a> 
-                            <a href="/login">Login</a> 
-                            <a href="/register">S'inscrire</a> 
-                        </nav>
-
-                </div>
-               
-                
-               
-               
-
-            </section>
-            <br>
-            <br>
+    <header>
+        <section class="container  fixed-top">
             
-            <div class="container">
-            <br><br>
-            @yield('pag_index')
-            @yield('login')
-            @yield('register')
+            <div class="container entete">
+                <div class="row">
+                        
+                        <i class="fab fa-whatsapp-square"></i>
+                        <div class="col"><i class="fa fa-phone-square" aria-hidden="true">+221773579551</i></div>
+                        <div class="col"><i class="fa fa-envelope-open-o" aria-hidden="true">:masellouddiallo@gmail.com</i>
+                        </div>
+                        <div class="col"><a href="https://web.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        
+                            
+                        </div>                            
+                </div> 
+                
+            </div>  
+            <div class="row">
+            <div class="navbar-menu ">
+            
+                <img src="{{asset('images/logo.png')}}" alt="logo" width="15%"> 
+                
+            
+                    <nav class="menu">
+                        <a href="/index">Accueil</a>
+                        <a href="/Boutique">Galerie</a>
+                        <a href="/contact">Contacts</a> 
+                        <a href="/login">Login</a> 
+                        <a href="/register">S'inscrire</a> 
+                    </nav>
+                    
 
-
-        </div>
-    </div>  
+            </div>
+            </div> 
+        </section>
+    </header>  
+    
+    <main>
+       @yield('pag_index')
+                @yield('login')
+                @yield('register')
+    </main>  
+    <br>
     <footer class="container-fluid footer">
         <div class="container ">
             <div class="row justify-content-center fixed-bottom">
