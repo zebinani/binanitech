@@ -1,7 +1,5 @@
 @extends('layouts.layout')
-
 @section('pag_index')
-<br><br><br>
 <div class="container">
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -201,7 +199,6 @@
                     </div>
                 </div>
             </div>  
-
 @endsection         
             
    

@@ -15,60 +15,76 @@
 
     <title>Accueil</title>
 </head>
-<body> 
+<body>
+
+
     <header>
-        <section class="container  fixed-top">
-            
-            <div class="container entete">
-                <div class="row">
-                        
-                        <i class="fab fa-whatsapp-square"></i>
-                        <div class="col"><i class="fa fa-phone-square" aria-hidden="true">+221773579551</i></div>
-                        <div class="col"><i class="fa fa-envelope-open-o" aria-hidden="true">:masellouddiallo@gmail.com</i>
-                        </div>
-                        <div class="col"><a href="https://web.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                        
-                            
-                        </div>                            
-                </div> 
-                
-            </div>  
-            <div class="row">
-            <div class="navbar-menu ">
-            
-                <img src="{{asset('images/logo.png')}}" alt="logo" width="15%"> 
-                
-            
-                    <nav class="menu">
-                        <a href="/index">Accueil</a>
-                        <a href="/Boutique">Galerie</a>
-                        <a href="/contact">Contacts</a> 
-                        <a href="/login">Login</a> 
-                        <a href="/register">S'inscrire</a> 
-                    </nav>
-                    
-
-            </div>
-            </div> 
-        </section>
-    </header>  
     
-    <main>
-       @yield('pag_index')
-                @yield('login')
-                @yield('register')
-    </main>  
-    <br>
-    <footer class="container-fluid footer">
-        <div class="container ">
-            <div class="row justify-content-center fixed-bottom">
-                    Copyright-2020 @:Tous les droits sont reserves à BINANITECH
+        
+            <div class="navbar  navbar-light bg-light">
+  
+                
+                <div class="container-fluid entete">
+                            <div class="row">
+                                    <div class="col"><i class="fa fa-phone-square" aria-hidden="true">+221773579551</i></div>
+                                    <div class="col"><i class="fa fa-phone-square" aria-hidden="true">+221770516002</i></div>
+
+                                    <div class="col"><i class="fa fa-envelope-open-o" aria-hidden="true">:masellouddiallo@gmail.com</i>
+                                    </div>
+                                    <div class="col"><a href="https://web.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> 
+                                    </div>                            
+                            </div> 
+                            
+                </div>  
+                        <div class="row">
+                            <div >
+                                <img src="{{asset('images/logo.png')}}" alt="logo" width="15%"> 
+                            </div> 
+                        </div>
+                
+        
             </div>
 
+           
+            </div>
+                </div>
+                </div> 
+        
+    </header> 
+  
+    <header>
+  
+            <nav class="navbar navbar-expand sticky-top">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                    </label> 
+                    <label class="logo"> BinanitecH</label>
+                    <ul>
+                    <li > <a class="active" href="/index">Accueil</a></li>
+                    <li> <a href="#">Galerie</a></li>
+                    <li> <a href="#">Contacts</a></li>
+                    <li> <a href="/login">Connexion</a></li>
+                    <li> <a href="register">S'inscrire</a></li>
+
+                    </ul>
+            </nav>
+            <section> 
+            </section>
+    
+    </header>
+    <main>
+        <div class="container">
+            @yield('pag_index')
         </div>
         
+            @yield('login')
+       
+        <div class="container">
+            @yield('register')
+        </div>
 
-    </footer>
-
+    </main>                  
+                      
 </body>
 </html>
