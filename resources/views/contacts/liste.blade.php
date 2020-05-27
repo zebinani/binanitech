@@ -1,22 +1,28 @@
+@extends('layouts.layout')
+@section('pag_contactliste')  
+
 <div class="container">
 <div class="row justify-content-center ">
-<div class="col-8 sm lg  "><h1>Liste des contacts</h1></div>
+<div class="col-8 sm lg  "><h1>Liste des Contacts</h1></div>
  <div class="col-10 align-items-center">
- <table class="table table-striped">
+
+ 
+ <table class="table table-bordered">
+
        <tr class=" bg-success">
            <th>#</th>          <th>id</th>  <th>NOM</th>    
            
                   <th>EMAIL</th> <th>object</th> <th>Message</th>
        </tr>
        
-       @foreach($Contacts as $contact)
+       @foreach($contacts as $Contact)
    <tr>
        <td>#</td>
-       <td>{{$contact->id ?? ''}}</td>
-       <td>{{$contact->name ?? ''}}</td>
-       <td>{{$contact->email ??''}} </td>
-       <td>{{$contact->object ?? ''}} </td>
-       <td>{{$contact->message ?? ''}} </td>
+       <td>{{$Contact->id ?? ''}}</td>
+       <td>{{$Contact->name ?? ''}}</td>
+       <td>{{$Contact->email ??''}} </td>
+       <td>{{$Contact->subject ?? ''}} </td>
+       <td>{{$Contact->message ?? ''}} </td>
        
     </tr>   
       @endforeach 
@@ -25,4 +31,6 @@
    </table>    
 </div>        
 </div>        
-</div>        
+</div>  
+ 
+@endsection     

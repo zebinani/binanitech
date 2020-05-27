@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<nav class="navbar  sticky-top navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"> <img src="{{asset('images/logo.png')}}" alt="logo" width="15%"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" >

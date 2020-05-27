@@ -1,10 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-use app\Contact;
 
 use Illuminate\Http\Request;
-
+use App\Contact;
 class ContactController extends Controller
 {
     /**
@@ -15,9 +14,10 @@ class ContactController extends Controller
     public function index()
     {
         //
-        $contacts= \App\Contact::paginate(4);
 
-        return view('contacts/contact');
+       $contacts= \App\Contact::orderBy('created_at', 'DESC')->get();
+       
+        return view('contacts/liste',compact('contacts'));
     }
 
     /**
@@ -28,10 +28,11 @@ class ContactController extends Controller
     public function create()
     {
         //
-        return view('contact.create');
+        return view('contacts/contact');
     }
 
-    /**
+
+/**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -41,12 +42,10 @@ class ContactController extends Controller
     {
         //
         $Contacts= new Contact();
-
-        $Contacts->id =$request->input('id');
         $Contacts->name =$request->input('name');
         $Contacts->email=$request->input('email');
-        $Contacts->number=$request->input('object');
-        $Contacts->description=$request->input('Message');
+        $Contacts->subject=$request->input('subject');
+        $Contacts->message=$request->input('message');
         $Contacts->save();
 
          return redirect('/');
