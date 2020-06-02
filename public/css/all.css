@@ -126,7 +126,7 @@ nav{
      color: white;
      font-size: 30px;
      line-height: 80px;
-     padding: 0 100px;
+     padding: 0px;
      font-weight: bold;
  }
  nav ul {
@@ -168,9 +168,7 @@ nav{
          padding-left: 50px;
  
      }
-     nav ul{
-         background: #2c3e50;
-     }
+    
      nav ul li a{
          font-size: 16px;
      }
@@ -221,7 +219,7 @@ nav{
          position: fixed;
          width: 95%;
          height: 100vh;
-         background:#2c3e50;
+         
          top:80px; 
          left: -100%; 
          text-align: center;
