@@ -17,6 +17,7 @@
 </head>
 <body>
     <div class="container">
+        
         <header class=" hearder-main" >         
             <div class="container">
                 <div class="row">
@@ -42,28 +43,25 @@
             
         </header>
         <header class="sticky-top">         
-           
-             <div class="container">
-             <nav class="navbar sticky-top navbar- bg-">
-               
-                
+
+            <div class="container">
+                <nav class="navbar sticky-top navbar- bg-">
                     <input type="checkbox" id="check">
                     <label for="check" class="checkbtn">
                     <i class="fa fa-bars"></i>
                     </label> 
                     <label class="logo"> BinanitecH</label>
                     <ul>
-                    <li > <a class="active" href="/accueil">Accueil</a></li>
-                    <li> <a href="#">Galerie</a></li>
-                    <li> <a href="/contact/create">Contacts</a></li>
-                    <li> <a href="/login">Connexion</a></li>
-                    <li> <a href="register">S'inscrire</a></li>
+                        <li > <a class="active" href="/accueil">Accueil</a></li>
+                        <li> <a href="#">Galerie</a></li>
+                        <li> <a href="/contact/create">Contacts</a></li>
+                        <li> <a href="/login">Connexion</a></li>
+                        <li> <a href="register">S'inscrire</a></li>
 
                     </ul>
-            </nav>
+                </nav>
 
-            </nav>
-             </div>
+            </div>
         </header>
         <main>
             <div class="container">
@@ -84,7 +82,6 @@
             </div>
 
         </main> 
-
         <footer>
             <div class="container">
             <p>Copyright 2020 © TOUS LES DROITS SONT RESERVES A BINANITECH</p>
