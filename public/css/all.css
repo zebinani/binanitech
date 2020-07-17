@@ -2,17 +2,11 @@
 body{
     margin: 0px;
     padding: 0px;
-    width: 100%;
     background-color:#fff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
     font-weight: 30px;
     
-    
-}
-main{
-     width: 100%;
-     margin-top: 2px;
     
 }
 .containe{
@@ -29,9 +23,10 @@ main{
     margin-top: 15px;
     padding:0px;
     border-color: rgb(41, 23, 204);
-    text-align: justify;
 }
 .header{
+    
+    
     width: 100%;
     color: blue ;
     height: 70px;
@@ -40,11 +35,6 @@ main{
     background-color:#fff;
     
     
-}
-.slider1{
-    border: crimson solid 2px;
-    height:80%;
-    width: 100%;
 }
 
 .menu{
@@ -108,162 +98,3 @@ background-color: cadetblue;
     
 
 }
-footer{
-    text-align: center;
-    background: url('../images/work.jpg'); 
-}
-.hearder-main{
-    background: url('../images/work.jpg'); 
-    
-}
-
-nav{
-    background-color:#0082e6; 
-    height:80px;
-    width: 100%;
- }
- label.logo{
-     color: white;
-     font-size: 30px;
-     line-height: 80px;
-     padding: 0 100px;
-     font-weight: bold;
- }
- nav ul {
-     float: right;
-     margin-right: 20px ;
- }
- nav ul li {
-     display: inline-block;
-     line-height: 80px;
-     margin: 0 5px;
- }
- nav ul li a {
-     color :white;
-     font-size: 17px;
-     padding: 7px 13px ;
-     border-radius: 3px;
-     text-transform: uppercase;
- }
- a.active,a:hover{
-     background: #1b9bff;
-     transition: .5s;
- }
- .checkbtn{
-     font-size: 30px;
-     color: white;
-     float: right;
-     line-height: 80px;
-     margin-right: 40px;
-     cursor: pointer;
-     display: none;
- 
- }
- #check{
-     display:none
- }
- @media(max-width: 1024px){
-     label.logo{
-         font-size: 30px;
-         padding-left: 50px;
- 
-     }
-     nav ul{
-         background: #2c3e50;
-     }
-     nav ul li a{
-         font-size: 16px;
-     }
- }
- @media(max-width: 858px){
-     .checkbtn{
-         display: block;
-     }
- 
-     ul{
-         position: fixed;
-         width: 95%;
-         height: 100vh;
-         background:#2c3e50;
-         top:80px; 
-         left: -100%; 
-         text-align: center;
-         transition: all 5.s;
- 
-     }
-     nav ul li {
-         display: block;
-         margin: 50px 0;
-         line-height: 30px;
-     }
-     nav ul li a{
-         font-size: 20px;
-     }
-     a:hover,a.active{
-         background: none;
-         color: #0082e6;
-     }
-     #check:checked ~ ul{
-         left: 0;
-     }
-     section{
-       background: url('../images/atelier.jpg'); 
-         background-size: contain;
-         height: calc(80vh - 80px); 
-     }
- }
- @media(max-width: 558px){
-     .checkbtn{
-         display: block;
-     }
-    
-     ul{
-         position: fixed;
-         width: 95%;
-         height: 100vh;
-         background:#2c3e50;
-         top:80px; 
-         left: -100%; 
-         text-align: center;
-         transition: all 5.s;
- 
-     }
-     nav ul li {
-         display: block;
-         margin: 50px 0;
-         line-height: 30px;
-     }
-     nav ul li a{
-         font-size: 20px;
-     }
-     a:hover,a.active{
-         background: none;
-         color: #0082e6;
-     }
-     #check:checked ~ ul{
-         left: 0;
-     }
-     section{
-        background: url('../images/atelier.jpg'); 
-         background-size: cover;
-         height: calc(80vh - 50px); 
-     }
- }
- 
- /*
- .slides{
-     width: calc(50px * 3);
-     
- }
- .slide{
-     float: left;
- }
- */
- .header_accueil{
-    color: aqua;  
-    background: url('../images/work2.jpg'); 
-         background-size: cover;
-      /*   height: 280px;*/
-      height: calc(70vh - 40px); 
-          
- }
