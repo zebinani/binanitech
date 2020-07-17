@@ -63,6 +63,7 @@
 
             </div>
         </header>
+       
         <main>
             <div class="container">
             @yield('pag_index')
