@@ -4,8 +4,12 @@
                 <hr>
     <div class="row justify-content-center w">
                         
-           
-            
+                            <h1><p>Adresse</p><p><i class="fa fa-map-marker"></i></p></h1>
+                                  
+        <div class="col-12 maps" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.935630429474!2d-17.324286450222242!3d14.772655776748406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10aee2898fbcd%3A0xd89e68434b47cac!2sBINANITECH!5e0!3m2!1sfr!2ssn!4v1578613556086!5m2!1sfr!2ssn" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+            <br>
                                 <div class="row .contacts">
                                         <!--Section: Contact v.2-->
                                   <section class="mb-4">
@@ -100,13 +104,8 @@
                                         <!--Grid column-->
                                   
                                     </div>
-                                    <h1><p>Adresse</p><p><i class="fa fa-map-marker"></i></p></h1>
                                   
-                                  <div class="col-12 maps" >
-                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.935630429474!2d-17.324286450222242!3d14.772655776748406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10aee2898fbcd%3A0xd89e68434b47cac!2sBINANITECH!5e0!3m2!1sfr!2ssn!4v1578613556086!5m2!1sfr!2ssn" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                                  </div>
                                   </section>
-                                  
                                   <!--Section: Contact v.2-->
                                   </div>
                                     </div>

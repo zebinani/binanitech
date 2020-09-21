@@ -1,15 +1,26 @@
 @extends('layouts.layout')
 @section('pag_index')
-
-  <div class="container">
-        <div class="header_accueil">
-
-        </div>
-   </div> 
-<br>
-
+<br><br><br><br><br><br><br>
+<header>  
     <div class="container">
-     
+        <div class="header_accueil">
+            <p> 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam illum laborum atque maxime blanditiis unde voluptas fuga corporis debitis minus sequi amet libero culpa, adipisci ipsum rem repellendus veniam nobis.
+            </p>
+ 
+<!--
+<div class="slider"> 
+    <div class="slides">
+        <div class="slide"> <img src="images/work.jpg" alt=""></div>
+        <div class="slide"> <img src="images/atelier.jpg" alt=""></div>
+        <div class="slide"> <img src="images/work2.jpg" alt=""></div>
+
+    </div>
+</div>
+-->
+</header>
+<main>
+    <div class="containe">
             <h1>A propos</h1>
             <div class="container propos">
             <div class="row justify-content-center">
@@ -60,10 +71,14 @@
                       </div>
 
         </div>
-        <h2>CONTACTS</h2>
+        <div class="row justify-content-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero neque atque voluptatibus nihil ex nesciunt eos, tempora labore voluptas iure, mollitia itaque eaque modi delectus velit deleniti blanditiis pariatur ipsum!         
+        </div>
+      
+        <h1>CONTACTS</h1>
         
         <div class="container">
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center w">
                             <div class="row .contacts">
                                 <!--Section: Contact v.2-->
                           <section class="mb-4">
@@ -173,9 +188,8 @@
             </div>
         </div>
     </div>  
-
- </div>
- 
+ </div> 
+ </main>
            
 @endsection         
             
