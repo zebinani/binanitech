@@ -4,11 +4,12 @@
 <header>  
     <div class="container">
         <div class="header_accueil">
-            <p> 
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam illum laborum atque maxime blanditiis unde voluptas fuga corporis debitis minus sequi amet libero culpa, adipisci ipsum rem repellendus veniam nobis.
-            </p>
+            
  
 <!--
+    <p> 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam illum laborum atque maxime blanditiis unde voluptas fuga corporis debitis minus sequi amet libero culpa, adipisci ipsum rem repellendus veniam nobis.
+            </p>
 <div class="slider"> 
     <div class="slides">
         <div class="slide"> <img src="images/work.jpg" alt=""></div>
@@ -71,10 +72,11 @@
                       </div>
 
         </div>
+        <!--
         <div class="row justify-content-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero neque atque voluptatibus nihil ex nesciunt eos, tempora labore voluptas iure, mollitia itaque eaque modi delectus velit deleniti blanditiis pariatur ipsum!         
         </div>
-      
+-->
         <h1>CONTACTS</h1>
         
         <div class="container">
